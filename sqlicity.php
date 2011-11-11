@@ -8,9 +8,7 @@
 	copyright 2008-2011, by Chris Rogus
 		http://www.sqlicity.com/
 
-	THIS APPLICATION IS NOT GPL'D!!!
-
-	build 2011031611
+	build 2011111102
 
 
 
@@ -18,45 +16,43 @@
 	COPYRIGHT NOTICE:
 **********************
 
-	FIX ME FIXME --
-		what about hosting companies selling services
-		advertising access to this software?...
-		That should be ok... right?
-		My current copyright implies that this is NOT ok.
+  2-clause BSD license:
+
+
+Copyright 2011 Chris Rogus. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice, this list of
+      conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice, this list
+      of conditions and the following disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY CHRIS ROGUS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL CHRIS ROGUS OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the
+authors and should not be interpreted as representing official policies, either expressed
+or implied, of Chris Rogus.
 
 
 
-	IF YOU ARE _NOT_ ME, AND I STRONGLY DOUBT YOU ARE,
-		DO _NOT_ DISTRIBUTE THIS FILE WITHOUT
-		MY EXPRESS PERMISSION.  FURTHERMORE, DO NOT MODIFY
-		THIS FILE IN ANY WAY AND THEN DISTRIBUTE IT.
-		ANY MONEY MADE BY SELLING THIS PROGRAM BELONGS TO ME,
-		ADVISE ME IF PROFIT IS AVAILABLE AND THEN
-		_ASK ME FOR MY PERMISSION_ BEFORE DOING ANYTHING.
-		MODIFICATION FOR PRIVATE USE IS ENCOURAGED.
-		LEARN FROM MY MISTAKES AND TRIUMPHS.
 
-
-	Sqlicity is NOT "free software" in the GPL/BSD license sense.
-		It is freely available and freely distributed but
-		it is most definitely MY software.  I retain the copyright
-		and while you are allowed to make changes for private usage,
-		(obviously -- the source code is right here already...)
-		distributing those changes is NOT OK.
-		Claiming that you made this software is ABSOLUTELY NOT OK.
-		Selling copies of this software or even access to this software
-		is NOT OK -- UNLESS you discuss with me terms for MY compensation.
-
-	In short, I am allowing you a limited single usage license for free.
-		Each instance of that limited single usage license is
-		an arrangement with me, and can NEVER be between you and a third party.
-		(Again, unless you discuss terms of compensation with me FIRST.)
-
-	You ABSOLUTELY AGREE, by using this software,
+	In short, most importantly, you ABSOLUTELY AGREE, by using this software,
 		that you will be fully responsible for ANY damages
 		that occur from its use.  I am _suggesting_ this software
-		for the purposes I have described herein,
-		I make NO guarantees as to its usability or suitability
+		for the purposes I have described herein of MySQL database management,
+		But I make NO guarantees as to its usability or suitability
 		for ANY function or to its being error-free and safe on data.
 
 	There are plenty of companies who charge you a lot of money
@@ -103,8 +99,8 @@
 
 	If you need every feature under the sun, fully supporting
 		every version of MySQL going back to version 3.0 or something,
-		use PhpMyAdmin.  I made Sqlicity because I hate PhpMyAdmin's interface,
-		but it does do more stuff than Sqlicity and it always will.
+		use PhpMyAdmin.  I made Sqlicity because I dislike PhpMyAdmin's interface
+		and installation, but it does do more stuff than Sqlicity and it always will.
 		(I have no intention of fighting a features war with them,
 		my goal is and will remain to minimize features to the bare essentials.)
 
@@ -127,7 +123,8 @@
 		You use this software acknowledging these risks.
 		Furthermore, there might be more, unanticipated risks
 		and you accept responsibilty for those dangers as well.
-	**** I AM NOT LIABLE FOR LOSS OR DAMAGE TO YOUR DATA!!!! ****
+
+	**** AGAIN, I AM NOT LIABLE FOR LOSS OR DAMAGE TO YOUR DATA!!!! ****
 
 
 
@@ -193,9 +190,19 @@ select row/col display invert
 data view scrolling for rows/cols
 
 
+	**** There are some other issues I have come across but not yet taken the time to isolate,
+		that are related only to selecting the data to be displayed on the data rows page
+		where certain where queries will actually crash the system.
+	I have never found this issue to be a show stopper for me and I've always been too busy
+		actually working on projects to fiddle much more with SQLicity to fix it.
+	So, if you come across this and can isolate it and submit a fix, I'll be most grateful.
+		Similarly with any other issues you encounter.  By all means, play!
 
 
-****g******************
+
+
+
+**********************
 	Table of Contents:
 **********************
 
